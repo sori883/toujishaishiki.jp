@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+    "Yu Gothic", sans-serif;
+  color: #2b2b2b;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(160deg, #fffaf3 0%, #fff1e0 55%, #ffe6cc 100%);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 9vw, 4.5rem);
+  letter-spacing: 0.18em;
+  font-weight: 600;
+}

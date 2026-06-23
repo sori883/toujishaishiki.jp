@@ -1,0 +1,13 @@
+{
+  "name": "toujishaishiki-jp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "当事者意識をテーマにしたシンプルな静的サイト",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
